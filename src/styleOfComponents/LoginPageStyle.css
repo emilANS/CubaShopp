@@ -1,0 +1,299 @@
+body {
+
+    background-color: white;
+
+}
+
+.shape-login {
+
+    /* Positioning */
+
+    height: 180px;
+
+    width: 180px;
+
+    left: 650px;
+
+    top: 25px;
+
+    position: relative;
+
+    border-radius: 50%;
+
+    /* Personalization */
+
+    background-image: linear-gradient(to left, rgb(5, 205, 255), rgb(0, 68, 255));
+
+}
+
+.shape-2 {
+
+    /* Positioning */
+
+    height: 200px;
+
+    width: 200px;
+
+    left: 200px;
+
+    top: 330px;
+
+    position: relative;
+
+    /* Personalization */
+
+    border-radius: 50%;
+
+    display: inline-block;
+
+    background-image: linear-gradient(to left, rgb(248, 179, 29), rgb(255, 30, 0));
+
+}
+
+.login-square>* {
+
+    /* Positioning */
+
+    position: relative;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 140px;
+
+    height: 570px;
+
+    width: 400px;
+
+    /* Personalization */
+
+    box-shadow: 3px 2px 20px;
+
+    background-color: rgba(214, 217, 253, 0.164);
+
+    backdrop-filter: blur(7px);
+
+    border-style: solid;
+
+    border-radius: 20px;
+
+    border-width: 3px;
+
+    border-color: rgba(170, 170, 170, 0.151);
+
+    transition-duration: 0.5s;
+
+}
+
+.inputs-buttons-from-square {
+
+    filter: blur(0);
+
+}
+
+.presentation-text {
+
+    /* Positioning */
+
+    top: 30px;
+
+    position: relative;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+    font-size: 30px;
+
+    transform: scale(.9.4, 1);
+
+}
+
+.text-above-input {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -100px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+.text-above-input-password {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -85px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+.text-above-input-email {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -110px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+.login-input {
+
+    /* Positioning */
+
+    padding: 5px;
+
+    height: 30px;
+
+    width: 270px;
+
+    top: 40px;
+
+    margin: 20px;
+
+    position: relative;
+
+    /* Personalization */
+
+    background-color: rgba(153, 153, 153, 0.384);
+
+    border: 2px none;
+
+    color: rgb(0, 0, 0);
+
+}
+
+.login-input::placeholder {
+
+    color: rgba(8, 8, 8, 0.781);
+
+}
+
+.login-button {
+
+    /* Positioning */
+
+    width: 280px;
+
+    height: 50px;
+
+    font-size: 20px;
+
+    margin: 55px;
+
+    /* Personalization */
+
+    border: 3px none;
+
+    border-radius: 8px;
+
+    background-color: rgba(0, 0, 0, 0.863);
+
+    color: white;
+
+    transition-duration: 0.5s;
+
+}
+
+.login-button:hover {
+
+    background-color: rgba(0, 0, 0, 0.993);
+
+    color: white;
+
+}
+
+.register-link {
+
+    /* Positioning */
+
+    height: 40px;
+
+    width: 130px;
+
+    font-size: 15px;
+
+    top: -15px;
+
+    position: relative;
+
+    /* Personalization */
+
+    background-color: rgba(128, 128, 128, 0.89);
+
+    border-style: none;
+
+    color: white;
+
+    transition-duration: 0.5s;
+
+}
+
+.register-link:hover {
+
+    /* Personalization */
+
+    background-color: rgba(65, 65, 65, 0.856);
+
+}
+
+.warning-incorrect-credential {
+
+    /* Positioning */
+
+    position: relative;
+
+    top: -670px;
+
+    /* Personalizing */
+
+    color: rgb(241, 112, 36);
+
+    font-family: montserrat;
+
+}

@@ -1,0 +1,35 @@
+.name-of-products-admin-statistic {
+
+    font-family: montserrat;
+
+}
+
+.name-of-products-admin-statistic-number {
+
+    font-family: montserrat;
+
+    font-weight: 500;
+
+}
+
+.go-to-admin-statistics {
+
+    /* Positioning */
+
+    margin: 10px;
+
+    width: 100px;
+
+    height: 30px;
+
+    /* Personalization */
+
+    background-color: rgba(0, 0, 0, 0.74);
+
+    border: 1px none;
+
+    border-radius: 5px;
+
+    color: white;
+
+}

@@ -1,0 +1,39 @@
+.exit-statistics-button {
+
+    /* Positioning */
+
+    width: 120px;
+
+    margin-bottom: 10px;
+
+    /* Personalization */
+
+    border: 1px none;
+
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.884);
+
+    color: white;
+
+}
+
+.products-info-box {
+
+    border: 1px solid rgba(82, 82, 82, 0.548);
+
+}
+
+.number-of-delivery {
+
+    font-family: montserrat;
+
+    font-weight: 400;
+
+}
+
+.name-of-products {
+
+    font-family: montserrat;
+
+}

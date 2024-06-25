@@ -1,0 +1,369 @@
+.shape {
+
+    /* Positioning */
+
+    height: 180px;
+
+    width: 180px;
+
+    left: 400px;
+
+    top: 25px;
+
+    position: relative;
+
+    /* Personalization */
+
+    border-radius: 50%;
+
+    background-image: linear-gradient(to left, rgb(5, 30, 255), rgb(153, 0, 255));
+
+}
+
+.shape-2-register {
+
+    /* Positioning */
+
+    height: 200px;
+
+    width: 200px;
+
+    left: 200px;
+
+    top: 330px;
+
+    position: relative;
+
+    /* Personalization */
+
+    border-radius: 50%;
+
+    background-image: linear-gradient(to left, rgb(29, 62, 248), rgb(255, 0, 119));
+
+}
+
+.shape-3 {
+
+    /* Positioning */
+
+    height: 200px;
+
+    width: 200px;
+
+    left: 300px;
+
+    top: 400px;
+
+    position: relative;
+
+    rotate: 50deg;
+
+    /* Personalization */
+
+    border-radius: 20%;
+
+    background-image: linear-gradient(to left, rgb(29, 62, 248), rgb(255, 0, 43));
+
+}
+
+.register-square>* {
+
+    /* Positioning */
+
+    position: relative;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 140px;
+
+    height: auto;
+
+    width: 400px;
+
+    /* Personalization */
+
+    box-shadow: 3px 2px 20px;
+
+    background-color: rgba(214, 217, 253, 0.164);
+
+    backdrop-filter: blur(7px);
+
+    border-style: solid;
+
+    border-radius: 20px;
+
+    border-width: 3px;
+
+    border-color: rgba(170, 170, 170, 0.151);
+
+    transition-duration: 0.5s;
+
+}
+
+.inputs-buttons-from-square {
+
+    filter: blur(0);
+
+}
+
+.presentation-text {
+
+    /* Positioning */
+
+    top: 30px;
+
+    position: relative;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+    font-size: 30px;
+
+    transform: scale(.9.4, 1);
+
+}
+
+.text-above-input-name {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -96px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+.text-above-input-password {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -85px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+.text-above-input-email-register {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -110px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+.text-above-input-phone-number {
+
+    /* Positioning */
+
+    transform: scale(.9, 1);
+
+    position: relative;
+
+    left: -40px;
+
+    top: 55px;
+
+    font-size: 20px;
+
+    /* Personalization */
+
+    color: black;
+
+    font-family: Montserrat;
+
+}
+
+#name-input,
+#password-input,
+#email-input,
+#telephone-number-input {
+
+    /* Positioning */
+
+    padding: 5px;
+
+    height: 30px;
+
+    width: 270px;
+
+    top: 40px;
+
+    margin: 20px;
+
+    position: relative;
+
+    /* Personalization */
+
+    background-color: rgba(153, 153, 153, 0.425);
+
+    border: 2px none;
+
+    color: black;
+
+}
+
+#name-input::placeholder,
+#password-input::placeholder,
+#email-input::placeholder,
+#telephone-number-input::placeholder {
+
+    color: rgba(0, 0, 0, 0.644);
+
+}
+
+.register-button {
+
+    /* Positioning */
+
+    width: 280px;
+
+    height: 50px;
+
+    font-size: 20px;
+
+    margin: 55px;
+
+    /* Personalization */
+
+    border: 3px none;
+
+    border-radius: 8px;
+
+    background-color: rgba(0, 0, 0, 0.849);
+
+    color: white;
+
+    transition-duration: 0.5s;
+
+}
+
+.register-button:hover {
+
+    background-color: rgba(0, 0, 0, 0.925);
+
+    color: white;
+
+}
+
+.login-link {
+
+    /* Positioning */
+
+    height: 50px;
+
+    width: 150px;
+
+    font-size: 15px;
+
+    position: relative;
+
+    margin-bottom: 15px;
+
+    /* Personalization */
+
+    background-color: rgba(128, 128, 128, 0.897);
+
+    border-style: none;
+
+    border-radius: 10px;
+
+    color: white;
+
+    transition-duration: 0.5s;
+
+}
+
+.login-link:hover {
+
+    /* Personalization */
+
+    background-color: rgba(65, 65, 65, 0.596);
+
+}
+
+.register-as-business-message {
+
+    font-family: montserrat;
+
+    color: rgb(255, 255, 255);
+
+    position: relative;
+
+    top: -15px;
+
+}
+
+.register-as-business-checkbox {
+
+    outline: 2px solid rgba(119, 119, 119, 0.247);
+
+    accent-color: rgba(78, 78, 78, 0);
+
+    height: 15px;
+
+    width: 15px;
+
+}
+
+.warning-incorrect-credential-register {
+
+    /* Positioning */
+
+    position: relative;
+
+    top: -500px;
+
+    /* Personalizing */
+
+    color: rgb(241, 112, 36);
+
+    font-family: montserrat;
+
+}
