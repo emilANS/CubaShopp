@@ -1,7 +1,7 @@
 # How to run it?:
 
 # Step 1
-Go to the cubaShopp folder and run in your console npm run dev...
+Go to the cubaShopp folder and run in your console npm run dev
 
 # Step 2
 Go to the src folder and then type in your console npx nodemon server.js
