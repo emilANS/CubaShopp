@@ -7,7 +7,7 @@ Go to the cubaShopp folder and run in your console npm run dev
 Go to the src folder and then type in your console npx nodemon server.js
 
 # Step 3
-Use a sqlite database interface so you can see the passwords or products etc...
+Use a sqlite database interface so you can see the passwords or products etc... the sqlite file is located in src\sqlFolder and then you have the file that is named databaseOfTheShop
 
 # For now the website should run Well
 
