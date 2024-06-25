@@ -12,7 +12,7 @@ Use a sqlite database interface so you can see the passwords or products etc... 
 # For now the website should run Well
 
 # How to use the website
-So the website have two modes one is the administrator mode and the other one is the client mode... in the administrator mode you add products so the clients can see it the default password for the admin is 
+So the website have two modes, one is the administrator mode and the other one is the client mode... in the administrator mode you add products so the clients can see it the default password for the admin is 
 userName: ADmIN"==%
 password: ADmIN"=!"#%"#/(!()()!"
 email: ADmIN"=!"#%/#(")(!
